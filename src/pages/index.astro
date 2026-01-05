@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RanchIllustration from '../components/RanchIllustration.astro';
+---
+
+<Layout title="Welcome">
+	<!-- Hero Section -->
+	<section class="max-w-6xl mx-auto px-4 py-12 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+		<div class="text-center md:text-left">
+			<span class="inline-block py-1 px-3 rounded-full bg-green-100 text-ranch-green-dark text-sm font-bold tracking-wide mb-4">
+				Rancho La Capillita • Yuma, AZ
+			</span>
+			<h1 class="text-5xl md:text-6xl font-bold text-ranch-green-dark mb-6 leading-tight">
+				Fresh Hay <br/>
+				<span class="text-ranch-green">Straight from the Farm</span>
+			</h1>
+			<p class="text-xl text-stone-600 mb-8 leading-relaxed">
+				Rancho La Capillita provides premium hay for your horses and livestock. Local, reliable, and family-owned.
+			</p>
+			
+			<div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+				<a href="/products" class="px-8 py-4 bg-ranch-green text-white rounded-xl font-bold hover:bg-ranch-green-dark transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+					View Hay & Availability
+				</a>
+				<a href="/location" class="px-8 py-4 bg-white text-ranch-green-dark border-2 border-ranch-green-dark rounded-xl font-bold hover:bg-stone-50 transition-all">
+					Pickup Location
+				</a>
+			</div>
+		</div>
+
+		<div class="relative">
+			<!-- Illustration -->
+			<div class="bg-ranch-light rounded-[3rem] p-4 shadow-inner rotate-1 hover:rotate-0 transition-transform duration-700">
+				<RanchIllustration />
+			</div>
+		</div>
+	</section>
+
+	<!-- Features Section -->
+	<section class="bg-ranch-light py-16">
+		<div class="container mx-auto px-4">
+			<div class="grid md:grid-cols-3 gap-8 text-center">
+				<div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+					<div class="text-5xl mb-6">🌿</div>
+					<h3 class="text-xl font-bold text-ranch-green-dark mb-3">Quality Grown</h3>
+					<p class="text-stone-600">Nutrient-rich soil and careful harvesting ensure the best feed for your animals.</p>
+				</div>
+				<div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+					<div class="text-5xl mb-6">🚜</div>
+					<h3 class="text-xl font-bold text-ranch-green-dark mb-3">Easy Pickup</h3>
+					<p class="text-stone-600">Convenient location with easy turnaround for trucks and trailers.</p>
+				</div>
+				<div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+					<div class="text-5xl mb-6">🤝</div>
+					<h3 class="text-xl font-bold text-ranch-green-dark mb-3">Fair Pricing</h3>
+					<p class="text-stone-600">Direct-from-farm prices. We value long-term relationships with our neighbors.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</Layout>

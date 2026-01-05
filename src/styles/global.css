@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ranch-green: #2e5a3e;
+  --color-ranch-green-dark: #1b3824;
+  --color-ranch-light: #f0f7f2;
+  --color-hay-yellow: #f8eeb0;
+  --color-hay-dark: #d4c26a;
+  --color-barn-red: #8f3b3b;
+  
+  --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+}

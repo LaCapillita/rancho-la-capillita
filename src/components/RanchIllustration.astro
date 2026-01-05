@@ -1,0 +1,57 @@
+---
+---
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto rounded-3xl" role="img" aria-label="Illustration of a peaceful ranch with a barn and fields">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefce8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed7aa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4c26a;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#f8eeb0;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="400" fill="url(#skyGradient)" />
+
+  <!-- Sun -->
+  <circle cx="650" cy="100" r="60" fill="#fbbf24" opacity="0.4" />
+
+  <!-- Distant Desert Hills -->
+  <path d="M0,300 Q200,280 400,320 T800,300 V400 H0 Z" fill="#d6d3d1" />
+  <path d="M0,350 Q300,320 800,360 V400 H0 Z" fill="#a8a29e" />
+
+  <!-- Fields (Hay Rows) -->
+  <path d="M0,400 L300,320 L800,350 L800,400 Z" fill="url(#fieldGradient)" />
+
+  <!-- Hay Bales (Three-string) -->
+  <g transform="translate(150, 340)">
+     <!-- Bale 1 -->
+     <rect x="0" y="0" width="60" height="30" fill="#facc15" stroke="#ca8a04" stroke-width="2" />
+     <line x1="20" y1="0" x2="20" y2="30" stroke="#ca8a04" stroke-width="2" />
+     <line x1="40" y1="0" x2="40" y2="30" stroke="#ca8a04" stroke-width="2" />
+     
+     <!-- Bale 2 Stacked -->
+     <rect x="10" y="-30" width="60" height="30" fill="#fde047" stroke="#ca8a04" stroke-width="2" />
+     <line x1="30" y1="-30" x2="30" y2="0" stroke="#ca8a04" stroke-width="2" />
+     <line x1="50" y1="-30" x2="50" y2="0" stroke="#ca8a04" stroke-width="2" />
+  </g>
+
+  <!-- More Bales -->
+  <g transform="translate(500, 360)">
+     <rect x="0" y="0" width="60" height="30" fill="#facc15" stroke="#ca8a04" stroke-width="2" />
+     <line x1="20" y1="0" x2="20" y2="30" stroke="#ca8a04" stroke-width="2" />
+     <line x1="40" y1="0" x2="40" y2="30" stroke="#ca8a04" stroke-width="2" />
+  </g>
+
+  <!-- Fence -->
+  <g stroke="#78350f" stroke-width="2" opacity="0.7">
+    <line x1="0" y1="380" x2="800" y2="380" />
+    <line x1="0" y1="395" x2="800" y2="395" />
+    <line x1="50" y1="370" x2="50" y2="400" />
+    <line x1="250" y1="370" x2="250" y2="400" />
+    <line x1="450" y1="370" x2="450" y2="400" />
+    <line x1="650" y1="370" x2="650" y2="400" />
+  </g>
+</svg>
