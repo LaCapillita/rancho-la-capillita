@@ -62,24 +62,44 @@ import RanchIllustration from '../components/RanchIllustration.astro';
 	<!-- About Us Section -->
 	<section class="py-20 md:py-28 bg-white overflow-hidden">
 		<div class="container mx-auto px-4">
-			<div class="max-w-4xl mx-auto text-center">
-				<span class="text-ranch-green font-bold tracking-wider uppercase mb-3 inline-block">Our Story</span>
-				<h2 class="text-4xl md:text-5xl font-bold text-ranch-green-dark mb-8">Roots in Tradition, Grown in Yuma</h2>
-				<div class="prose prose-lg mx-auto text-stone-600 leading-relaxed text-justify md:text-center">
-					<p class="mb-6 text-xl">
-						Rancho La Capillita is named after our family’s hometown, <strong>La Capilla del Refugio, Jalisco, Mexico</strong>. 
-						Farming runs deep in our blood. Our family has been growing crops like corn, wheat, radishes, and cilantro for generations.
-					</p>
-					<p class="text-xl">
-						As first-generation Americans and proud Yumans, we’re honored to keep that tradition alive right here in this great country. 
-						Our alfalfa and everything we grow is raised with care, hard work, and good old-fashioned country pride.
-					</p>
+			<div class="flex flex-col md:flex-row gap-12 items-center">
+				<!-- Text Content -->
+				<div class="w-full md:w-1/2">
+					<span class="text-ranch-green font-bold tracking-wider uppercase mb-3 inline-block">Our Story</span>
+					<h2 class="text-4xl md:text-5xl font-bold text-ranch-green-dark mb-8">Roots in Tradition, Grown in Yuma</h2>
+					<div class="prose prose-lg text-stone-600 leading-relaxed text-justify md:text-left mb-8">
+						<p class="mb-6 text-xl">
+							Rancho La Capillita is named after our family’s hometown, <strong>La Capilla del Refugio, Jalisco, Mexico</strong>. 
+							Farming runs deep in our blood. Our family has been growing crops like corn, wheat, radishes, and cilantro for generations.
+						</p>
+						<p class="text-xl">
+							As first-generation Americans and proud Yumans, we’re honored to keep that tradition alive right here in this great country. 
+							Our alfalfa and everything we grow is raised with care, hard work, and good old-fashioned country pride.
+						</p>
+					</div>
+					<div class="text-center md:text-left">
+						<a href="/contact" class="inline-flex items-center justify-center px-8 py-4 bg-ranch-green-dark text-white rounded-full font-bold hover:bg-ranch-green transition-colors shadow-lg hover:shadow-xl">
+							Get in Touch with the Family
+						</a>
+					</div>
 				</div>
-				
-				<div class="mt-12">
-					<a href="/contact" class="inline-flex items-center justify-center px-8 py-4 bg-ranch-green-dark text-white rounded-full font-bold hover:bg-ranch-green transition-colors shadow-lg hover:shadow-xl">
-						Get in Touch with the Family
-					</a>
+
+				<!-- Images -->
+				<div class="w-full md:w-1/2 space-y-4">
+					<div class="rounded-3xl overflow-hidden shadow-xl rotate-1 hover:rotate-0 transition-transform duration-500">
+						<img src="/images/tractor.jpg" alt="Tractor working the fields at Rancho La Capillita" class="w-full h-auto object-cover" />
+					</div>
+					<div class="grid grid-cols-3 gap-4">
+						<div class="rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+							<img src="/images/field-1.jpg" alt="Lush alfalfa fields" class="w-full h-32 object-cover hover:scale-105 transition-transform duration-500" />
+						</div>
+						<div class="rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+							<img src="/images/field-2.jpg" alt="Green fields in Yuma" class="w-full h-32 object-cover hover:scale-105 transition-transform duration-500" />
+						</div>
+						<div class="rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+							<img src="/images/field-3.jpg" alt="Sunny day at the ranch" class="w-full h-32 object-cover hover:scale-105 transition-transform duration-500" />
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
