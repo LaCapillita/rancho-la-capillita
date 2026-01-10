@@ -45,9 +45,8 @@ Yuma, AZ 85365<br />
 </div>
 </div>
 <div class="h-96 w-full rounded-2xl overflow-hidden shadow-lg border-2 border-stone-100">
-<iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.54!2d-114.5!3d32.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDM2JzAwLjAiTiAxMTTCsDMwJzAwLjAiVw!5e0!3m2!1sen!2sus!4v1!5m2!1sen!2sus">
+<iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=14591%20S%20Avenue%204%20E%2C%20Yuma%2C%20AZ%2085365&t=h&z=14&ie=UTF8&iwloc=&output=embed">
 </iframe>
-<!-- Using a generic embed for Yuma area as placeholder since API key is restricted. If user inspects closely, it's just a general Yuma map pin. The Search link in the Address box is the primary navigation tool. -->
 </div>
 </div>
 </div>
